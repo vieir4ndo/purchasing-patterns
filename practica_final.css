@@ -1,0 +1,48 @@
+body {
+    font: 14px sans-serif;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.tooltip {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    background-color: white;
+    padding: 1%;
+}
+
+.tooltip.show {
+    opacity: 0.9;
+}
+
+.graph1 {
+    width: 70%;
+    height: 100%;
+}
+
+.graph2 {
+    width: 30%;
+    height: 100%;
+}
